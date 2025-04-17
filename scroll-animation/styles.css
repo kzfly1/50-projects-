@@ -21,7 +21,7 @@ h1 {
 
 .box {
   background-color: steelblue;
-  color: white;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,12 +30,12 @@ h1 {
   margin: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-  transform: translateX(240%);
+  transform: translateX(200%);
   transition: transform 0.4s ease;
 }
 
 .box:nth-of-type(even) {
-  transform: translateX(-240%);
+  transform: translateX(-200%);
 }
 
 .box.show {
@@ -43,5 +43,5 @@ h1 {
 }
 
 .box h2 {
-  font-size: 45px;
+  font-size: 3rem;
 }
